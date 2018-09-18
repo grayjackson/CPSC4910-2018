@@ -1,0 +1,52 @@
+table {
+	width: 100%;
+	border: 1px solid purple;
+	background-color: purple;
+	color: white;
+	font-size: 30px;
+	
+}
+
+a:link {
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+	color: lightgray;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+	text-decoration: none;
+}
+
+h1 {
+	color: purple;
+	text-align: center;
+}
+
+p1 {
+	color: purple;
+	font-size: 20px;
+}
+
+div {
+	padding-bottom: 35%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+footer {
+
+	background-color: orange;
+	text-align: center;
+	vertical-align: bottom;
+}
+p5 {
+	
+	color: purple;
+	font-size: 15px;
+	
+}
