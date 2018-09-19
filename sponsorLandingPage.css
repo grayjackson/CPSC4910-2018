@@ -1,0 +1,102 @@
+html, body {
+
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+#navbar {
+
+	height: 10%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: purple;
+}
+
+ul {
+
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+li {
+
+	float: left;
+}
+
+a:link {
+
+	font-size: 20pt;
+	color: white;
+	text-decoration: none;
+}
+
+a:visited {
+
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+
+	color: orange;
+	text-decoration: none;
+}
+
+li a {
+
+	display: block;
+	padding: 30px;
+}
+
+#body {
+
+	height: 85%;
+	width: 100%;
+	border: 1px solid black;
+	overflow: hidden;
+}
+
+#accountInfo {
+
+	width: 40%;
+	padding: 30px;
+	float: left;
+}
+
+#drivers {
+
+	width: 40%;
+	padding: 30px;
+	float: right;
+	overflow: hidden;
+}
+
+#driversScroll {
+
+	height: 300px;
+	border: 1px solid red;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
+#driver {
+
+}
+
+footer {
+
+	background-color: orange;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+p5 {
+	
+	color: purple;
+	font-size: 15px;
+	
+}
