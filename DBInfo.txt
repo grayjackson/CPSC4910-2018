@@ -1,0 +1,15 @@
+DB name: TruckBenefit4910DB
+
+user: Project4910DB
+
+password: 4910TruckDB
+
+server: mysql1.cs.clemson.edu
+
+server version: 5.5.38-0ubuntu0.12.04.1
+
+connect on linux with: 
+	mysql -h mysql1.cs.clemson.edu -u Project4910DB -p TruckBenefit4910DB
+	
+Run code with:
+	SOURCE <file>.txt
