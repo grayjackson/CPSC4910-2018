@@ -5,26 +5,14 @@ html, body {
 	height: 100%;
 }
 
-#navbar {
-
-	height: 10%;
+table {
 	width: 100%;
-	margin: 0;
-	padding: 0;
+	border: 1px solid purple;
 	background-color: purple;
-}
-
-ul {
-
-	list-style: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-}
-
-li {
-
-	float: left;
+	color: white;
+	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
+	
 }
 
 a:link {
@@ -62,23 +50,39 @@ li a {
 
 #accountInfo {
 
-	width: 40%;
+	width: 20%;
 	padding: 30px;
 	float: left;
 }
 
+#sponsors {
+
+	width: 35%;
+	padding: 10px;
+	overflow: hidden;
+	float: left;
+}
+
+#sponsorsScroll {
+
+	height: 300px;
+	border: 1px solid purple;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+
 #pointHistory {
 
-	width: 40%;
-	padding: 30px;
-	float: right;
+	width: 35%;
+	padding: 10px;
+	float: left;
 	overflow: hidden;
 }
 
 #pointHistoryScroll {
 
 	height: 300px;
-	border: 1px solid red;
+	border: 1px solid purple;
 	overflow: hidden;
 	overflow-y: scroll;
 }
@@ -94,5 +98,17 @@ p5 {
 	
 	color: purple;
 	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+
+h2 {
+	color: purple;
+	font-family: "Times New Roman", Times, serif;
+}
+
+p {
+	color: purple;
+	font-family: "Times New Roman", Times, serif;
 	
 }

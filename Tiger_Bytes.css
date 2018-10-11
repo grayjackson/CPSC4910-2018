@@ -1,9 +1,17 @@
+html, body {
+
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
 table {
 	width: 100%;
 	border: 1px solid purple;
 	background-color: purple;
 	color: white;
 	font-size: 30px;
+	font-family: "Times New Roman", Times, serif;
 	
 }
 
@@ -25,17 +33,19 @@ a:hover {
 h1 {
 	color: purple;
 	text-align: center;
+	font-family: "Times New Roman", Times, serif;
 }
 
 p1 {
 	color: purple;
 	font-size: 20px;
+	font-family: "Times New Roman", Times, serif;
 }
-
 p2 {
-	color:purple;
+	color: purple;
 	font-size: 20px;
 	text-align: center;
+	font-family: "Times New Roman", Times, serif;
 }
 
 div {
@@ -54,5 +64,6 @@ p5 {
 	
 	color: purple;
 	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
 	
 }
